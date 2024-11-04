@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Login - Educação para a Vida Real</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <img id="img-redonda1" src="logo.png" alt="Logo do Projeto">
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <div class="interface">
+                <h2>Login</h2>
+                <form action="login.php" method="post">
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <input type="password" name="password" placeholder="Sua Senha" required>
+                    <div class="btn-submit">
+                        <input type="submit" value="Login">
+                    </div>
+                </form>
+                <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <p>&copy; 2024 Educação para a Vida Real</p>
+        </div>
+    </footer>
+</body>
+</html>
